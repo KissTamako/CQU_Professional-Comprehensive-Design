@@ -1,0 +1,105 @@
+{
+	"pages": [{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/courier/courier",
+			"style": {
+				"navigationBarTitleText": "快递员工作台"
+			}
+		},
+		{
+			"path": "pages/user/pickup",
+			"style": {
+				"navigationBarTitleText": "取快递"
+			}
+		},
+		{
+			"path": "pages/user/storage",
+			"style": {
+				"navigationBarTitleText": "寄存物品"
+			}
+		},
+		{
+			"path": "pages/user/send",
+			"style": {
+				"navigationBarTitleText": "发快递"
+			}
+		},
+		{
+			"path": "pages/user/face",
+			"style": {
+				"navigationBarTitleText": "人脸识别开柜"
+			}
+		},
+		{
+			"path": "pages/admin/dashboard",
+			"style": {
+				"navigationBarTitleText": "管理平台"
+			}
+		},
+		{
+			"path": "pages/user/register",
+			"style": {
+				"navigationBarTitleText": "注册绑定"
+			}
+		},
+		{
+			"path": "pages/courier/delivery",
+			"style": {
+				"navigationBarTitleText": "快递入柜"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "快递柜综合应用系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/user/pickup",
+				"iconPath": "static/tabbar/package.png",
+				"selectedIconPath": "static/tabbar/package-active.png",
+				"text": "取件"
+			},
+			{
+				"pagePath": "pages/courier/courier",
+				"iconPath": "static/tabbar/courier.png",
+				"selectedIconPath": "static/tabbar/courier-active.png",
+				"text": "工作台"
+			},
+			{
+				"pagePath": "pages/admin/dashboard",
+				"iconPath": "static/tabbar/admin.png",
+				"selectedIconPath": "static/tabbar/admin-active.png",
+				"text": "管理"
+			}
+		]
+	}
+}
